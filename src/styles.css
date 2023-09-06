@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Overpass:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
+@import url(https://fonts.googleapis.com/css?family=Be+Vietnam+Pro:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
 :root {
   --reseda-green: #5D8064;
   --cambridge-blue: #9AB69B;
@@ -25,16 +27,24 @@
 }
 
 #navbar a {
-  font-family: Overpass;
   text-decoration: none;
+  padding-right: 85px;
+}
+
+.section-link {
+  display: inline;
+  font-family: Overpass;
   font-size: 22px;
   color: black;
-  padding-right: 80px;
+}
+
+.section-link:hover {
+  color: white;
 }
 
 .wrapper {
     background-color: var(--reseda-green);
-    height: 600px;
+    height: 725px;
 }
 
 #profile-pic {
@@ -48,8 +58,26 @@
     margin-top: 15px;
 }
 
+#welcome-section {
+  position: absolute;
+  display: block;
+  top: 12%;
+  right: 10%;
+  font-family: Be Vietnam Pro;
+}
+
+#welcome-section h2:first-of-type {
+  color: white;
+}
+
+#welcome-section h1:first-of-type {
+  margin-bottom: 1.5rem;
+}
+
+#welcome-section p:first-of-type {
+  font-size: 18px;
+}
+
 @media screen and (min-width: 480px) {
-  h2 {
-    color: purple;
-  }
+  
 }
