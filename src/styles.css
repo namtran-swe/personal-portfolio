@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+  text-align: right;
+}
+
+.wrapper {
+    background-color: #016A70;
+    height: 1250px;
+}
+
+#profile-pic {
+    position: absolute;
+    border-radius: 50%;
+    width: 500px;
+    height: 700px;
+    object-fit: cover;
+    top: 10%;
+    left: 5%;
+
+}
+
+@media screen and (min-width: 480px) {
+  h2 {
+    color: purple;
+  }
+}
