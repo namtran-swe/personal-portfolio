@@ -114,11 +114,22 @@
   font-size: 40px;
   text-align: center;
   padding: 0 auto;
-  margin: 5% auto 3%;
+  margin: 5% auto 1%;
 }
 
 #aboutme {
   position: relative;
+}
+
+#headshot {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 640px;
+  height: 640px;
+  transform: scale(0.4);
+  border: solid 10px var(--dim-gray);
+  border-radius: 20px;
 }
 
 #projects {
