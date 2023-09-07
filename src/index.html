@@ -7,34 +7,52 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="header">
-        <navbar id="navbar" class="navbar">
-            <a href="#home"><p class="section-link">Home</p></a>
-            <a href="#aboutme"><p class="section-link">About Me</p></a>
-            <a href="#projects"><p class="section-link">Projects</p></a>
-            <a href="#contact"><p class="section-link">Contact</p></a>
-          </navbar>
-    </header>
+    <header>
+      <navbar id="navbar" class="navbar">
+        <a href="#home"><p class="section-link">Home</p></a>
+        <a href="#aboutme"><p class="section-link">About Me</p></a>
+        <a href="#projects"><p class="section-link">Projects</p></a>
+        <a href="#contact"><p class="section-link">Contact</p></a>
+      </navbar>
     <main>
         <div class="wrapper">
+          <section id="home">
             <img id="profile-pic" src="assets/DSC00058.jpg" />
             <div id="welcome-section">
               <h2>Hello!</h2>
               <h1>I Am Nam Tran</h1>
-              <p>I'm a software engineer with 3 years of experience.<br> My expertise is in website and mobile design.</p>
+              <p>I'm a software engineer with 3 years of experience.<br> 
+                My expertise is in website and mobile design.</p>
+              <form action="https://github.com/namtran-swe" target="_blank">
+                <button id="github-btn" class="ext-link">My Github!</button>
+              </form>
+              <form action="https://www.linkedin.com/in/namtran-swe/" target="_blank">
+                <button id="linkedin-btn" class="ext-link">My LinkedIn!</button>
+              </form>
             </div>
+          </section>
+
+          <section id="aboutme">
+            <h1 class="section-header">About Me</h1>
+            <img id="headshot" src="" />
+          </section>
           
-            <div id="projects">
-              <div class="project-tile">
-                <a></a>
-              </div>
-              <div class="project-tile">
-                <a></a>
-              </div>
-              <div class="project-tile">
-                <a></a>
-              </div>
+          <section id="projects">
+            <h1 class="section-header">My Projects</h1>
+            <div class="project-tile">
+              <a></a>
             </div>
+            <div class="project-tile">
+              <a></a>
+            </div>
+            <div class="project-tile">
+              <a></a>
+            </div>
+          </section>
+
+          <section id="contact">
+            <h1 class="section-header">Contact Me</h1>
+          </section>
         </div>
         <a id="profile-link" target="_blank"></a>
     </main>
