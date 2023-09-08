@@ -114,20 +114,25 @@
   font-size: 40px;
   text-align: center;
   padding: 0 auto;
-  margin: 5% auto 1%;
+  margin: 5% auto 3%;
 }
 
 #aboutme {
   position: relative;
 }
 
+#aboutme span {
+  margin: 0 50px 0 25px;
+  max-width: 70%;
+}
+
 #headshot {
   position: relative;
-  top: 0;
-  right: 0;
-  width: 640px;
-  height: 640px;
-  transform: scale(0.4);
+  top: 50px;
+  margin-left: 7%;
+  max-width: 30%;
+  width: 320px;
+  height: 320px;
   border: solid 10px var(--dim-gray);
   border-radius: 20px;
 }
