@@ -17,6 +17,23 @@
     margin: 0;
 }
 
+.center-text {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.overpass {
+  font-family: Overpass;
+}
+
+.vietnam-pro {
+  font-family: Be Vietnam Pro;
+}
+
+.comfortaa {
+  font-family: Comfortaa;
+}
+
 #navbar {
   position: relative;
   display: block;
@@ -37,7 +54,6 @@
 
 .section-link {
   display: inline;
-  font-family: Overpass;
   font-size: 22px;
   color: black;
   margin-top: 200px;
@@ -66,7 +82,6 @@
 }
 
 #welcome-section {
-  font-family: Be Vietnam Pro;
   margin: 160px 100px 50px 120px;
 }
 
@@ -96,7 +111,6 @@
   padding: 8px 5px;
   background-color: var(--battleship-gray);
   border: solid 2px var(--cambridge-blue);
-  font-family: Overpass;
   font-weight: bold;
 }
 
@@ -147,7 +161,6 @@
   margin: 5% 2% 10%;
   min-width: 500px;
   max-width: 50%;
-  font-family: Be Vietnam Pro;
   font-size: 20px;
   overflow: hidden;
 }
@@ -164,12 +177,26 @@
 
 #projects {
   position: relative;
+  display: block;
+}
+
+.project-tile {
+  margin: 5rem 5rem 0 5rem;
+}
+
+.project-tile img {
+  border: solid 3px black;
+}
+
+.project-tile button {
+  display: block;
+  margin: 1.5rem auto;
+}
+
+.project-pic {
+  height: 450px;
 }
 
 #contact {
   position: relative;
-}
-
-@media screen and (min-width: 480px) {
-  
 }
