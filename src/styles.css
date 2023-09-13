@@ -34,8 +34,12 @@
   font-family: Comfortaa;
 }
 
+.top-pad-80 {
+  padding-top: 80px;
+}
+
 #navbar {
-  position: relative;
+  position: fixed;
   display: block;
   top: 0;
   right: 0;
@@ -181,7 +185,7 @@
 }
 
 .project-tile {
-  margin: 5rem 5rem 0 5rem;
+  margin: 5rem 2rem 0 2rem;
 }
 
 .project-tile img {
@@ -191,12 +195,25 @@
 .project-tile button {
   display: block;
   margin: 1.5rem auto;
+  font-size: 16px;
+  width: 175px;
 }
 
 .project-pic {
-  height: 450px;
+  height: 250px;
 }
 
 #contact {
   position: relative;
+}
+
+.contact-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.contact-wrapper div {
+  display: inline-block;
+  margin: 5rem 5rem 8rem;
+  font-size: 20px;
 }
